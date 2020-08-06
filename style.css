@@ -1082,10 +1082,21 @@ ul {
   box-sizing: border-box;
   color: $brand_color;
   display: flex;
-  flex: 1 0 340px;
+  flex: 1 0 245px;
   margin: 0 0 30px;
   max-width: 100%;
   text-align: center;
+  box-shadow 0.5px 0.9px 3px rgba(0,0,0,.12);
+  transition-timing-function: ease-in-out;
+}
+.blocks-item:after {
+    content: "\203A";
+    vertical-align: middle;
+    font-size: 30px;
+    right: 20px;
+    position: absolute;
+    color: #000;
+    margin-top: -3px;
 }
 
 @media (min-width: 768px) {
