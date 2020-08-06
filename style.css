@@ -1078,15 +1078,15 @@ ul {
 
 .blocks-item {
   border: 1px solid $brand_color;
-  border-radius: 4px;
   box-sizing: border-box;
   color: $brand_color;
   display: flex;
   flex: 1 0 245px;
   margin: 0 0 30px;
   max-width: 100%;
-  text-align: center;
-  box-shadow 0.5px 0.9px 3px rgba(0,0,0,.12);
+  text-align: left;
+  box-shadow: 0.5px 0.9px 3px rgba(0,0,0,.12);
+  transition: .5s;
   transition-timing-function: ease-in-out;
 }
 .blocks-item:after {
