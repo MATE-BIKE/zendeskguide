@@ -618,6 +618,10 @@ ul {
   }
 }
 
+.header * {
+  color: white !important;
+}
+
 .logo img {
   max-height: 37px;
 }
