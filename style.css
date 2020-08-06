@@ -1088,6 +1088,7 @@ ul {
   box-shadow: 0.5px 0.9px 3px rgba(0,0,0,.12);
   transition: .5s;
   transition-timing-function: ease-in-out;
+  position: relative;
 }
 .blocks-item:after {
     content: "\203A";
