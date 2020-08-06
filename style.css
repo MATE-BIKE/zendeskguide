@@ -778,19 +778,19 @@ ul {
 
 .user-info > button {
   border: 0;
-  color: $link_color;
+  color: white;
   min-width: 0;
   padding: 0;
   white-space: nowrap;
 }
 
 .user-info > button:hover, .user-info > button:focus {
-  color: $link_color;
+  color: white;
   background-color: transparent;
 }
 
 .user-info > button::after {
-  color: $link_color;
+  color: white;
   padding-right: 15px;
 }
 
