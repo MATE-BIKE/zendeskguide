@@ -597,6 +597,7 @@ ul {
 /***** Header *****/
 .header {
   background: #000;
+
 }
 .header > div {
   max-width: 1160px;
@@ -611,7 +612,7 @@ ul {
 }
 
 @media (min-width: 1160px) {
-  .header {
+  .header > div {
     padding: 0;
     width: 90%;
   }
