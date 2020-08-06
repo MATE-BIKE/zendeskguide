@@ -1271,6 +1271,7 @@ ul {
 }
 
 .recent-activity-item-parent {
+  display: none;
   font-size: 16px;
 }
 
