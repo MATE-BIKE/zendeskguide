@@ -1,7 +1,7 @@
 {
   "name": "MATE.BIKE",
   "author": "Zendesk",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
