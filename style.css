@@ -1082,7 +1082,6 @@ ul {
 }
 
 .blocks-item {
-  border: 1px solid $brand_color;
   box-sizing: border-box;
   color: $brand_color;
   display: flex;
@@ -1091,7 +1090,7 @@ ul {
   max-width: 100%;
   text-align: left;
   box-shadow: 0.5px 0.9px 3px rgba(0,0,0,.12);
-  transition: .5s;
+  transition: .4s;
   transition-timing-function: ease-in-out;
   position: relative;
 }
@@ -1099,10 +1098,10 @@ ul {
     content: "\203A";
     vertical-align: middle;
     font-size: 30px;
-    right: 20px;
+    right: 36px;
     position: absolute;
     color: #000;
-    margin-top: -3px;
+    margin-top: 2px;
 }
 
 @media (min-width: 768px) {
@@ -1137,6 +1136,7 @@ ul {
 }
 
 .blocks-item-link {
+  background: #eee;
   color: $brand_color;
   padding: 20px 30px;
   display: flex;
@@ -1147,7 +1147,9 @@ ul {
 }
 
 .blocks-item-link:hover, .blocks-item-link:active {
+  background: #ddd;
   text-decoration: none;
+  
 }
 
 .blocks-item-link:focus {
