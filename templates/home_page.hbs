@@ -82,6 +82,16 @@
     {{/if}}
   </section>
 </div>
+{{#form 'requests_filter' class='request-table-toolbar'}}
+  {{input 'query' id='quick-search' type='search' class='requests-search'}}
+  <div class="request-table-filters">
+    {{label 'organization' for='request-organization-select' class='request-filter'}}
+    {{select 'organization' id='request-organization-select' class='request-filter'}}
+    {{subscribe}}
+    {{label 'status' for='request-status-select' class='request-filter'}}
+    {{select 'status' id='request-status-select' class='request-filter'}}
+  </div>
+{{/form}}
 
 <script>
   $('.icon').each(function (idx, itm){
