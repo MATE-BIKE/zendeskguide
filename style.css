@@ -1097,10 +1097,10 @@ ul {
 .blocks-item:after {
     content: "\203A";
     vertical-align: middle;
-    font-size: 30px;
-    right: 36px;
+    font-size: 36px;
+    right: 20px;
     position: absolute;
-    color: #000;
+    color: #333;
     margin-top: 2px;
 }
 
@@ -1110,12 +1110,7 @@ ul {
   }
 }
 
-.blocks-item:hover, .blocks-item:focus, .blocks-item:active {
-  background-color: $brand_color;
-}
-
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
-  color: $brand_text_color;
   text-decoration: none;
 }
 
