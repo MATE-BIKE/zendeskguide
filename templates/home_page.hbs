@@ -82,3 +82,10 @@
     {{/if}}
   </section>
 </div>
+
+<script>
+  $('.icon').each(function (idx, itm){
+    var categoryID = $(this).attr('data-title');
+    $(itm).attr('src', categoryIcons[categoryID]);
+  });
+</script>
