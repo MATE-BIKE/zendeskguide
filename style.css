@@ -1103,6 +1103,12 @@ ul {
     color: #2f3941;
     margin-top: 2px;
 }
+.block-item {
+  width: 24px;
+  height: auto;
+  float: left;
+  margin: 0 10px 0 0;
+}
 
 @media (min-width: 768px) {
   .blocks-item {
