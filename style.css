@@ -1277,6 +1277,10 @@ ul {
   width: 48%;
   margin-left: 2%;
 }
+.writeus .button-large {
+  display: inline-block;
+  text-align: center;
+}
 .recent-activity-header, .writeus > h2 {
   margin-bottom: 20px;
   text-align: left;
