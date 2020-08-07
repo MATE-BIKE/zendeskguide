@@ -75,11 +75,20 @@
       <div class="community-image"></div>
     </section>
   {{/if}}
-
   <section class="section home-section activity">
-    {{#if settings.show_recent_activity}}
-      {{recent_activity}}
-    {{/if}}
+    <div class="recent-acts">
+      {{#if settings.show_recent_activity}}
+        {{recent_activity}}
+      {{/if}}
+    </div>
+    <div class="writeus">
+      <h2>Send request</h2>
+      <p>
+        <b>Didn't find what you were looking for?</b><br>
+         Write to us, our team is ready to help you.
+      </p>
+      <a href="/requests/new" class="writeus">Write us</a>
+    </div>
   </section>
 </div>
 

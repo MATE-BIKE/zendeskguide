@@ -1263,14 +1263,35 @@ ul {
 
 .community,
 .activity {
-  border-top: 1px solid #ddd;
   padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /***** Recent activity *****/
+.recent-acts {
+	width: 48%;
+	margin-right: 2%;
+}
+.writeus {
+  width: 48%;
+  margin-left: 2%;
+}
 .recent-activity-header {
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.recent-activity-header:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 0 0 20px;
+  flex: 1 0 20px;
+  color: #203139;
+  opacity: .1;
 }
 
 .recent-activity-list {
