@@ -621,7 +621,7 @@ ul {
 .header *, .header a:link, .header a:visited {
   color: #fff !important;
 }
-.header .dropdown-menu * {
+.header .dropdown-menu a:link, .header .dropdown-menu a:visited, .header .dropdown-menu * {
   color: #000;
 }
 
