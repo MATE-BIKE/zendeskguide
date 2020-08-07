@@ -1277,7 +1277,7 @@ ul {
   width: 48%;
   margin-left: 2%;
 }
-.recent-activity-header {
+.recent-activity-header, .writeus > h2 {
   margin-bottom: 20px;
   text-align: left;
   display: flex;
@@ -1285,7 +1285,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.recent-activity-header:after {
+.recent-activity-header:after, .writeus > h2:after {
   content: "";
   border-top: 2px solid;
   margin: 0 0 0 20px;
