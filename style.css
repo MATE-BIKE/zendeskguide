@@ -622,7 +622,7 @@ ul {
   color: #fff !important;
 }
 .header .dropdown-menu a:link, .header .dropdown-menu a:visited, .header .dropdown-menu * {
-  color: #000;
+  color: #000 !important;
 }
 
 .logo img {
