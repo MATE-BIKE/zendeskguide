@@ -621,6 +621,9 @@ ul {
 .header *, .header a:link, .header a:visited {
   color: #fff !important;
 }
+.header .dropdown-menu * {
+  color: #fff;
+}
 
 .logo img {
   max-height: 37px;
