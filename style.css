@@ -296,7 +296,7 @@ textarea:focus {
 .container {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 3%;
 }
 
 @media (min-width: 1160px) {
@@ -1097,10 +1097,10 @@ ul {
 .blocks-item:after {
     content: "\203A";
     vertical-align: middle;
-    font-size: 36px;
+    font-size: 38px;
     right: 20px;
     position: absolute;
-    color: #333;
+    color: #2f3941;
     margin-top: 2px;
 }
 
