@@ -21,17 +21,17 @@
       </header>
 
       <div id="main-content" class="section-tree">
-       {{#each sections}}
-              <li class="blocks-item">
-                <a href='{{url}}' class="blocks-item-link">
-                  <img src="{{asset 'ajax-loader.gif'}}" class="icon" data-title="{{id}}">
-                  <span class="blocks-item-title">
-                    {{name}}
-                  </span>
-                  <span class="blocks-item-description">{{excerpt description}}</span>
-                </a>
-              </li>
-            {{/each}}
+        <ul class="blocks-list">
+          {{#each sections}}
+            <li class="blocks-item">
+              <a href='{{url}}' class="blocks-item-link">
+                <img src="{{asset 'ajax-loader.gif'}}" class="icon" data-title="{{id}}">
+                <span class="blocks-item-title">{{name}}</span>
+                <span class="blocks-item-description">{{excerpt description}}</span>
+              </a>
+            </li>
+          {{/each}}
+        </ul>
       </div>
     </div>
   </div>
