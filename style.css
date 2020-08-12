@@ -1158,7 +1158,7 @@ ul {
 
 .blocks-item-link:focus {
   outline: 0;
-  box-shadow: 0 0 0 3px $brand_color;
+  box-shadow: 0.5px 0.9px 3px rgba(0,0,0,.24);
   text-decoration: none;
 }
 
