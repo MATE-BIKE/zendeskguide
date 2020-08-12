@@ -1089,7 +1089,7 @@ ul {
   color: $brand_color;
   display: flex;
   flex: 1 0 245px;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   max-width: 100%;
   text-align: left;
   box-shadow: 0.5px 0.9px 3px rgba(0,0,0,.12);
@@ -1115,7 +1115,7 @@ ul {
 
 @media (min-width: 768px) {
   .blocks-item {
-    margin: 0 15px 30px;
+    margin: 0 10px 20px;
   }
 }
 
@@ -1142,7 +1142,7 @@ ul {
 .blocks-item-link {
   background: #eee;
   color: $brand_color;
-  padding: 20px 30px;
+  padding: 20px;
   display: block;
   flex-direction: column;
   flex: 1;
